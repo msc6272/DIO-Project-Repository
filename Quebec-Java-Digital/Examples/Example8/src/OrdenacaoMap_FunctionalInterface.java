@@ -1,12 +1,19 @@
 import java.util.*;
-/*
-import java.util.function.Consumer;
+
+// import java.util.function.Consumer;
 import java.util.function.Function;
-*/
+
 
 import Exercicios.Contato;
 
-public class RefatoracaoOrdenacaoMap {
+/*Dadas as seguintes informações  de id e contato, crie um dicionário e
+ordene este dicionário exibindo (Nome id - Nome contato);
+id = 1 - Contato = nome: Simba, numero: 2222;
+id = 4 - Contato = nome: Cami, numero: 5555;
+id = 3 - Contato = nome: Jon, numero: 1111;
+*/
+
+public class OrdenacaoMap_FunctionalInterface {
 
     public static void main(String[] args) {
         System.out.println("--\tOrdem aleatória\t--");
@@ -39,7 +46,7 @@ public class RefatoracaoOrdenacaoMap {
         }
 
         System.out.println("--\tOrdem número telefone\t--");
-        //precisamos organizar os valores. Logo:
+        // Anonymous Class Implementation
         /*Set<Map.Entry<Integer, Contato>> set = new TreeSet<>(new Comparator<Map.Entry<Integer, Contato>>() {
             @Override
             public int compare(Map.Entry<Integer, Contato> cont1, Map.Entry<Integer, Contato> cont2) {
@@ -47,16 +54,20 @@ public class RefatoracaoOrdenacaoMap {
             }
         });*/
 
-        /*Set<Map.Entry<Integer, Contato>> set = new TreeSet<>(Comparator.comparing(
+        // Functional Interface Implementation with Anonymous Class
+        Set<Map.Entry<Integer, Contato>> set = new TreeSet<>(Comparator.comparing(
                 new Function<Map.Entry<Integer, Contato>, Integer>() {
                     @Override
                     public Integer apply(Map.Entry<Integer, Contato> cont) {
                         return cont.getValue().getNumero();
                     }
-                }));*/
+                }));
 
-        Set<Map.Entry<Integer, Contato>> set = new TreeSet<>(Comparator.comparing(
-                cont -> cont.getValue().getNumero()));
+        // Lambda Implementation
+        /*Set<Map.Entry<Integer, Contato>> set = new TreeSet<>(Comparator.comparing(
+                cont -> cont.getValue().getNumero()));*/
+
+        // Show the results for 'telephone ordered set'
         set.addAll(agenda.entrySet());
         for (Map.Entry<Integer, Contato> entry: set) {
             System.out.println(entry.getKey() + " - " + entry.getValue().getNumero() +
@@ -86,4 +97,3 @@ public class RefatoracaoOrdenacaoMap {
         return cont1.getValue().getNome().compareToIgnoreCase(cont2.getValue().getNome());
     }
 }*/
-
