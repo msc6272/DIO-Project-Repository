@@ -2,8 +2,6 @@
 
 import java.util.Scanner;
 
-import javax.print.event.PrintJobListener;
-
 public class Calculadora {
     
     public static void main(String[] args) {
@@ -24,6 +22,8 @@ public class Calculadora {
         System.out.println("subtração: " + subtracao);
         System.out.println("multiplicação: " + multiplicacao);
         System.out.println("divisão: " + divisao);
+
+        scan.close();;
     }
 
     public static int soma(int a, int b) {
