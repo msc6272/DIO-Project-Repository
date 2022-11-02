@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class CalculoSimples {
@@ -12,6 +11,9 @@ public class CalculoSimples {
         int cod2 = leitor.nextInt();
         int n2 = leitor.nextInt();
         double valor2 = leitor.nextDouble();
+
+        if (cod1 % cod1 !=0 ) System.err.println(cod1);
+        if (cod2 % cod2 !=0 ) System.err.println(cod2);
           
   // TODO: Implemente um Cálculo Simples. 
   // Levando em consideração a sua precedência de operadores e a definição de suas casas decimais:
