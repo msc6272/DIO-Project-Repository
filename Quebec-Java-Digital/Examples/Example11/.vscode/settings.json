@@ -1,0 +1,13 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    // A entrada abaixo foi criada por mim, em 3/11/2022, para tentar ativar o JUnit
+    "java.test.config": {
+        "name": "myTestConfiguration",
+        "vmArgs": [ "-Xmx512M"],
+        "env": { "key": "value"}
+    }
+}
