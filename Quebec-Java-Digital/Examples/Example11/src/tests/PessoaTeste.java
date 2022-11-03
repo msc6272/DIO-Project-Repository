@@ -1,8 +1,10 @@
-package novo;
+package tests;
 
 import java.time.LocalDateTime;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+
+import main.Pessoa;
 
 public class PessoaTeste {
     @Test

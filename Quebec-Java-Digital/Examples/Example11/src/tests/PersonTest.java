@@ -1,8 +1,10 @@
-package Inicio;
+package tests;
 import java.time.LocalDate;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+
+import main.Person;
 
 /*
  * Para que o JUnit funcionasse, eu tive que:
@@ -19,10 +21,10 @@ import org.junit.jupiter.api.Assertions;
  * 6) https://www.infoworld.com/article/3662814/review-visual-studio-code-shines-for-java.html
  */
 
-public class PessoaTest {
+public class PersonTest {
     @Test
     public void validarCalculoDeIdade() {
-        Pessoa pessoa = new Pessoa("julia", LocalDate.of(2020, 1, 1));
+        Person pessoa = new Person("julia", LocalDate.of(2020, 1, 1));
         Assertions.assertEquals(2, pessoa.getIdade());
     }
 }

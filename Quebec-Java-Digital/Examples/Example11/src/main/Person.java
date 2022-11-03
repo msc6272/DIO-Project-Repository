@@ -1,12 +1,12 @@
-package Inicio;
+package main;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
-public class Pessoa {
+public class Person {
     private String nome;
     private LocalDate nascimento;
     
-    public Pessoa(String nome, LocalDate nascimento) {
+    public Person(String nome, LocalDate nascimento) {
         this.nome = nome;
         this.nascimento = nascimento;
     }
