@@ -1,4 +1,4 @@
-package one.digitalinnovation.basecamp;
+package QuebecJavaDigital.Examples.Example5;
 
 public class Main {
 

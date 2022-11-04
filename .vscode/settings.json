@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/junit-platform-console-standalone-1.9.1.jar",
+        "Quebec-Java-Digital/libs/junit-platform-console-standalone-1.9.1.jar",
+        "QuebecJavaDigital/libs/junit-platform-console-standalone-1.9.1.jar"
+    ]
+}

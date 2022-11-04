@@ -12,4 +12,4 @@
 * Example8 - from 'Working with Java Collections'
 * Example9 - from 'Object Oriented Programming'
 * Example10 - from 'Java Debugging' and 'Exception Handling in Java'
-* Example11 - from ''
+* Example11 - from 'Unit Tests with JUnit'

@@ -1,4 +1,4 @@
-package one.digitalinnovation.basecamp;
+package QuebecJavaDigital.Examples.Example4;
 
 /**
  * Classe principal dos exercícios da Aula 1 de Métodos.

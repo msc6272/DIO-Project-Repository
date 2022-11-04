@@ -1,4 +1,4 @@
-package one.digitalinnovation.basecamp;
+package QuebecJavaDigital.Examples.Example6;
 
 /**
  * Classe de exemplo para o exercício da Aula 3 de Métodos.
