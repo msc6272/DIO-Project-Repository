@@ -1,5 +1,3 @@
-package QuebecJavaDigital.Challenges.Second;
-
 import java.util.Scanner;
 
 public class ReducaoZero {
