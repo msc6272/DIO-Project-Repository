@@ -5,7 +5,7 @@
 public class ProgramaGato {
 
     public static void main(String[] args) {
-        Gato gato = new Gato(null, 0, null);
+        Gato gato = new Gato();
         Livros livros = new Livros();
 
         System.out.println(gato);
