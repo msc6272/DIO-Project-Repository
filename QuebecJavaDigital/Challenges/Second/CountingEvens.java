@@ -8,7 +8,8 @@ import java.util.Scanner;
 
 public class CountingEvens {
     public static void main(String[] args) {
-        int num = Integer.parseInt(new Scanner(System.in).nextLine());
+        Scanner scanner = new Scanner(System.in);
+        int num = Integer.parseInt(scanner.nextLine());
         var count = 0;
 
         for (var i = 1; i <= num; i++) {
@@ -29,5 +30,6 @@ public class CountingEvens {
             }
         }
         System.out.println(count);
+        scanner.close();
     }
 }

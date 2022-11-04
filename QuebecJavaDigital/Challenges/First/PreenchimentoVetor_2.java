@@ -7,7 +7,6 @@ public class PreenchimentoVetor_2 {
         Scanner leitor = new Scanner(System.in); 
         int t = leitor.nextInt(); 
    
-// TODO: Implemente uma condição onde possamos preencher o vetor de N.
 // Lembre-se a sequência de valores é de 0 até T-1:
         int[] n = IntStream.iterate(0, x -> (x + 1) % t)
                        .limit(tamanhoVetor)

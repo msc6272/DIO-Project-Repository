@@ -15,7 +15,6 @@ public class CalculoSimples {
         if (cod1 % cod1 !=0 ) System.err.println(cod1);
         if (cod2 % cod2 !=0 ) System.err.println(cod2);
           
-  // TODO: Implemente um Cálculo Simples. 
   // Levando em consideração a sua precedência de operadores e a definição de suas casas decimais:
           
        double total = (n1 * valor1) + (n2 * valor2);
