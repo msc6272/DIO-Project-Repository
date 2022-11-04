@@ -1,4 +1,3 @@
-package QuebecJavaDigital.Examples.Example4;
 /**
  * Classe de exemplo para o exercício da Aula 1 de Métodos.
  */
