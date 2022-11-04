@@ -1,4 +1,3 @@
-package QuebecJavaDigital.Examples.Example5;
 
 public class Main {
 
