@@ -3,5 +3,17 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "PostgresDB",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "postgres"
+        }
     ]
 }
