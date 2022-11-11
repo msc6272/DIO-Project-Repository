@@ -1,5 +1,7 @@
 package dio.quebec.example15.doc;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+
 import java.util.Arrays;
 import java.util.HashSet;
 
@@ -55,5 +57,12 @@ public class SwaggerConfig {
         return docket;
     }
 
-    
+    // O problema de não exibir a interface do Swagger foi resolvido com essa dica:
+    // https://github.com/springfox/springfox/issues/3462#issuecomment-1123580724 
+    // Basta chamar o site na url: http://localhost:8080/swagger-ui/ 
+    @RequestMapping("/")
+    public String home() {
+        //return "redirect:swagger-ui.html"; --old
+        return "redirect:swagger-ui/";
+    }
 }

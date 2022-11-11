@@ -9,7 +9,7 @@ import dio.quebec.example15.model.Usuario;
 import dio.quebec.example15.repository.UsuarioRepository;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/users") 
 public class UsuarioController {
     @Autowired
     private UsuarioRepository repository;
