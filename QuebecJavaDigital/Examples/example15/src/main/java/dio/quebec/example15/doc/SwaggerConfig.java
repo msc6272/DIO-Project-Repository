@@ -45,7 +45,7 @@ public class SwaggerConfig {
 
         docket
             .select()
-            .apis(RequestHandlerSelectors.basePackage("dio.quebec.example15"))
+            .apis(RequestHandlerSelectors.basePackage("dio.quebec.example15.controller"))
             .paths(PathSelectors.any())
             .build()
             .apiInfo(this.informacoesApi().build())
