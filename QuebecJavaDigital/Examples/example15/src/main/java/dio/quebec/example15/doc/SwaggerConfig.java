@@ -21,7 +21,7 @@ public class SwaggerConfig {
         return new Contact(
             "Seu nome",
             "http://www.seusite.com.br",
-            "você@seusite.com.br"
+            "voce@seusite.com.br"
         );
     }
 
@@ -54,4 +54,6 @@ public class SwaggerConfig {
 
         return docket;
     }
+
+    
 }
