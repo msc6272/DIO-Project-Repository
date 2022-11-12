@@ -8,5 +8,5 @@ import dio.quebec.example16.model.User;
 
 public interface UserRepository extends JpaRepository<User, Integer> {
     @Query("SELECT e FROM User e JOIN FETCH e.roles WHERE e.username = (:username)")
-    public User findByUsername(@Param ("Username") String username);
+    public User findByUsername(@Param ("username") String username);
 }

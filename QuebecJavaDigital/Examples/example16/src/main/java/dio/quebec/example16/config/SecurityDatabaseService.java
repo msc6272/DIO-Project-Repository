@@ -9,10 +9,13 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import dio.quebec.example16.model.User;
 import dio.quebec.example16.repository.UserRepository;
 
+@Service
 public class SecurityDatabaseService implements UserDetailsService {
     @Autowired
     private UserRepository userRepository;

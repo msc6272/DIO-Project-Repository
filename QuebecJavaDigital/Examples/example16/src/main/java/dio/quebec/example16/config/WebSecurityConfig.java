@@ -19,7 +19,8 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig {
-    //As linhas abaixo foram adicionadas para permitir a validação de usuários por um BD
+    //As linhas abaixo foram adicionadas para permitir a validação de usuários por um BD. 
+    
     @Autowired
     private SecurityDatabaseService securityService;
 
