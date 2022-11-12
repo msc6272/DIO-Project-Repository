@@ -44,4 +44,28 @@ public class LoginController {
             throw new RuntimeException("Erro ao tentar fazer login");
         }
     }
+
+    public PasswordEncoder getEncoder() {
+        return encoder;
+    }
+
+    public void setEncoder(PasswordEncoder encoder) {
+        this.encoder = encoder;
+    }
+
+    public SecurityConfig getSecurityConfig() {
+        return securityConfig;
+    }
+
+    public void setSecurityConfig(SecurityConfig securityConfig) {
+        this.securityConfig = securityConfig;
+    }
+
+    public UserRepository getRepository() {
+        return repository;
+    }
+
+    public void setRepository(UserRepository repository) {
+        this.repository = repository;
+    }
 }

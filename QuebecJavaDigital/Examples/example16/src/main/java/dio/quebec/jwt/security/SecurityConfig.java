@@ -13,10 +13,10 @@ public class SecurityConfig {
     public static void setPrefix(String prefix) {
         PREFIX = prefix;
     }
-    public static void setKEY(String key) {
+    public static void setKey(String key) {
         KEY = key;
     }
-    public static void setEXPIRATION(Long expiration) {
+    public static void setExpiration(Long expiration) {
         EXPIRATION = expiration;
     }
 }

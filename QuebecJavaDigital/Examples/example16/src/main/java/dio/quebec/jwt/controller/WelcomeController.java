@@ -17,7 +17,7 @@ public class WelcomeController {
         return "Authorized manager";
     }
     @GetMapping("/teste")
-    public String live() {
+    public String teste() {
         return "Acesso livre";
     }
 }
