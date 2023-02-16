@@ -6,3 +6,10 @@
 
 ## Challenges
 [1. Git/GitHub Project Challenge](https://github.com/msc6272/DIO-Project-Repository) <img src="https://icon-library.com/images/completed-icon/completed-icon-6.jpg" width="15" height="15">
+
+
+<!--
+In Progress: <img src="https://images.assetsdelivery.com/compings_v2/roxanabalint/roxanabalint1310/roxanabalint131000294.jpg" width="75" height="37.5">
+Not completed: 
+Completed: <img src="https://icon-library.com/images/completed-icon/completed-icon-6.jpg" width="15" height="15">
+-->
