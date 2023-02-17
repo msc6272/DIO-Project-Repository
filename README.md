@@ -7,7 +7,7 @@
 
 ## Challenges
 [1. Git/GitHub Project Challenge](https://github.com/msc6272/DIO-Project-Repository) <img src="https://icon-library.com/images/completed-icon/completed-icon-6.jpg" width="15" height="15"><br>
-[2. Infrastructure as a Code - Project Lab]() <img src="https://icon-library.com/images/completed-icon/completed-icon-6.jpg" width="15" height="15"><br>
+[2. Infrastructure as a Code - Project Lab](https://github.com/msc6272/DIO-Project-Repository/LinuxFromZero) <img src="https://icon-library.com/images/completed-icon/completed-icon-6.jpg" width="15" height="15"><br>
 
 
 <!--
