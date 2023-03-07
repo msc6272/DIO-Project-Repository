@@ -6,7 +6,9 @@ public abstract class Conteudo {
 
     private String titulo;
     private String descricao;
-
+    private int cargaHoraria; // em horas; se fração, arredondar para o inteiro superior
+    private String nivel; // básico, intermediário, avançado (também poderia ser um código numérico)
+    
     public abstract double calcularXp();
 
     public String getTitulo() {
@@ -23,5 +25,25 @@ public abstract class Conteudo {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public static double getXpPadrao() {
+        return XP_PADRAO;
+    }
+
+    public int getCargaHoraria() {
+        return cargaHoraria;
+    }
+
+    public void setCargaHoraria(int cargaHoraria) {
+        this.cargaHoraria = cargaHoraria;
+    }
+
+    public String getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(String nivel) {
+        this.nivel = nivel;
     }
 }

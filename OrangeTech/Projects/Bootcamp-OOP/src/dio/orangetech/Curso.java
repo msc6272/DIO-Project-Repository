@@ -1,6 +1,6 @@
 package dio.orangetech;
 
-public class Curso extends Conteudo{
+public class Curso extends Conteudo implements Certificado {
 
     private int cargaHoraria;
 
@@ -28,5 +28,11 @@ public class Curso extends Conteudo{
                 ", descricao='" + getDescricao() + '\'' +
                 ", cargaHoraria=" + cargaHoraria +
                 '}';
+    }
+
+    @Override
+    public void imprimirCertificado() {
+        // TODO Auto-generated method stub 
+        throw new UnsupportedOperationException("Unimplemented method 'imprimirCertificado'");
     }
 }
