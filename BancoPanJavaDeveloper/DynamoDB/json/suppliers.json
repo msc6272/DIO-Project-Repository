@@ -1,0 +1,1048 @@
+{
+   "Northwind":[
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Exotic Liquids"
+               },
+               "contactName":{
+                  "S":"Charlotte Cooper"
+               },
+               "contactTitle":{
+                  "S":"Purchasing Manager"
+               },
+               "postalCode":{
+                  "S":"EC1 4SD"
+               },
+               "phone":{
+                  "S":"(171) 555-2222"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#1"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"UK#NULL#London#49 Gilbert St."
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"New Orleans Cajun Delights"
+               },
+               "contactName":{
+                  "S":"Shelley Burke"
+               },
+               "contactTitle":{
+                  "S":"Order Administrator"
+               },
+               "postalCode":{
+                  "S":"70117"
+               },
+               "phone":{
+                  "S":"(100) 555-4822"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"#CAJUN.HTM#"
+               },
+               "pk":{
+                  "S":"suppliers#2"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"USA#LA#New Orleans#P.O. Box 78934"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Grandma Kelly's Homestead"
+               },
+               "contactName":{
+                  "S":"Regina Murphy"
+               },
+               "contactTitle":{
+                  "S":"Sales Representative"
+               },
+               "postalCode":{
+                  "S":"48104"
+               },
+               "phone":{
+                  "S":"(313) 555-5735"
+               },
+               "fax":{
+                  "S":"(313) 555-3349"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#3"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"USA#MI#Ann Arbor#707 Oxford Rd."
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Tokyo Traders"
+               },
+               "contactName":{
+                  "S":"Yoshi Nagase"
+               },
+               "contactTitle":{
+                  "S":"Marketing Manager"
+               },
+               "postalCode":{
+                  "S":"100"
+               },
+               "phone":{
+                  "S":"(03) 3555-5011"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#4"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Japan#NULL#Tokyo#9-8 Sekimai Musashino-shi"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Cooperativa de Quesos 'Las Cabras'"
+               },
+               "contactName":{
+                  "S":"Antonio del Valle Saavedra"
+               },
+               "contactTitle":{
+                  "S":"Export Administrator"
+               },
+               "postalCode":{
+                  "S":"33007"
+               },
+               "phone":{
+                  "S":"(98) 598 76 54"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#5"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Spain#Asturias#Oviedo#Calle del Rosal 4"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Mayumi's"
+               },
+               "contactName":{
+                  "S":"Mayumi Ohno"
+               },
+               "contactTitle":{
+                  "S":"Marketing Representative"
+               },
+               "postalCode":{
+                  "S":"545"
+               },
+               "phone":{
+                  "S":"(06) 431-7877"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"Mayumi's (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/mayumi.htm#"
+               },
+               "pk":{
+                  "S":"suppliers#6"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Japan#NULL#Osaka#92 Setsuko Chuo-ku"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Pavlova Ltd."
+               },
+               "contactName":{
+                  "S":"Ian Devling"
+               },
+               "contactTitle":{
+                  "S":"Marketing Manager"
+               },
+               "postalCode":{
+                  "S":"3058"
+               },
+               "phone":{
+                  "S":"(03) 444-2343"
+               },
+               "fax":{
+                  "S":"(03) 444-6588"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#7"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Australia#Victoria#Melbourne#74 Rose St. Moonie Ponds"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Specialty Biscuits Ltd."
+               },
+               "contactName":{
+                  "S":"Peter Wilson"
+               },
+               "contactTitle":{
+                  "S":"Sales Representative"
+               },
+               "postalCode":{
+                  "S":"M14 GSD"
+               },
+               "phone":{
+                  "S":"(161) 555-4448"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#8"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"UK#NULL#Manchester#29 King's Way"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"PB Knäckebröd AB"
+               },
+               "contactName":{
+                  "S":"Lars Peterson"
+               },
+               "contactTitle":{
+                  "S":"Sales Agent"
+               },
+               "postalCode":{
+                  "S":"S-345 67"
+               },
+               "phone":{
+                  "S":"031-987 65 43"
+               },
+               "fax":{
+                  "S":"031-987 65 91"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#9"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Sweden#NULL#Göteborg#Kaloadagatan 13"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Refrescos Americanas LTDA"
+               },
+               "contactName":{
+                  "S":"Carlos Diaz"
+               },
+               "contactTitle":{
+                  "S":"Marketing Manager"
+               },
+               "postalCode":{
+                  "S":"5442"
+               },
+               "phone":{
+                  "S":"(11) 555 4640"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#10"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Brazil#NULL#Sao Paulo#Av. das Americanas 12.890"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Heli Süßwaren GmbH & Co. KG"
+               },
+               "contactName":{
+                  "S":"Petra Winkler"
+               },
+               "contactTitle":{
+                  "S":"Sales Manager"
+               },
+               "postalCode":{
+                  "S":"10785"
+               },
+               "phone":{
+                  "S":"(010) 9984510"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#11"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Germany#NULL#Berlin#Tiergartenstraße 5"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Plutzer Lebensmittelgroßmärkte AG"
+               },
+               "contactName":{
+                  "S":"Martin Bein"
+               },
+               "contactTitle":{
+                  "S":"International Marketing Mgr."
+               },
+               "postalCode":{
+                  "S":"60439"
+               },
+               "phone":{
+                  "S":"(069) 992755"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"Plutzer (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/plutzer.htm#"
+               },
+               "pk":{
+                  "S":"suppliers#12"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Germany#NULL#Frankfurt#Bogenallee 51"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Nord-Ost-Fisch Handelsgesellschaft mbH"
+               },
+               "contactName":{
+                  "S":"Sven Petersen"
+               },
+               "contactTitle":{
+                  "S":"Coordinator Foreign Markets"
+               },
+               "postalCode":{
+                  "S":"27478"
+               },
+               "phone":{
+                  "S":"(04721) 8713"
+               },
+               "fax":{
+                  "S":"(04721) 8714"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#13"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Germany#NULL#Cuxhaven#Frahmredder 112a"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Formaggi Fortini s.r.l."
+               },
+               "contactName":{
+                  "S":"Elio Rossi"
+               },
+               "contactTitle":{
+                  "S":"Sales Representative"
+               },
+               "postalCode":{
+                  "S":"48100"
+               },
+               "phone":{
+                  "S":"(0544) 60323"
+               },
+               "fax":{
+                  "S":"(0544) 60603"
+               },
+               "homePage":{
+                  "S":"#FORMAGGI.HTM#"
+               },
+               "pk":{
+                  "S":"suppliers#14"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Italy#NULL#Ravenna#Viale Dante 75"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Norske Meierier"
+               },
+               "contactName":{
+                  "S":"Beate Vileid"
+               },
+               "contactTitle":{
+                  "S":"Marketing Manager"
+               },
+               "postalCode":{
+                  "S":"1320"
+               },
+               "phone":{
+                  "S":"(0)2-953010"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#15"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Norway#NULL#Sandvika#Hatlevegen 5"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Bigfoot Breweries"
+               },
+               "contactName":{
+                  "S":"Cheryl Saylor"
+               },
+               "contactTitle":{
+                  "S":"Regional Account Rep."
+               },
+               "postalCode":{
+                  "S":"97101"
+               },
+               "phone":{
+                  "S":"(503) 555-9931"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#16"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"USA#OR#Bend#3400 - 8th Avenue Suite 210"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Svensk Sjöföda AB"
+               },
+               "contactName":{
+                  "S":"Michael Björn"
+               },
+               "contactTitle":{
+                  "S":"Sales Representative"
+               },
+               "postalCode":{
+                  "S":"S-123 45"
+               },
+               "phone":{
+                  "S":"08-123 45 67"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#17"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Sweden#NULL#Stockholm#Brovallavägen 231"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Aux joyeux ecclésiastiques"
+               },
+               "contactName":{
+                  "S":"Guylène Nodier"
+               },
+               "contactTitle":{
+                  "S":"Sales Manager"
+               },
+               "postalCode":{
+                  "S":"75004"
+               },
+               "phone":{
+                  "S":"(1) 03.83.00.68"
+               },
+               "fax":{
+                  "S":"(1) 03.83.00.62"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#18"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"France#NULL#Paris#203 Rue des Francs-Bourgeois"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"New England Seafood Cannery"
+               },
+               "contactName":{
+                  "S":"Robb Merchant"
+               },
+               "contactTitle":{
+                  "S":"Wholesale Account Agent"
+               },
+               "postalCode":{
+                  "S":"02134"
+               },
+               "phone":{
+                  "S":"(617) 555-3267"
+               },
+               "fax":{
+                  "S":"(617) 555-3389"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#19"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"USA#MA#Boston#Order Processing Dept. 2100 Paul Revere Blvd."
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Leka Trading"
+               },
+               "contactName":{
+                  "S":"Chandra Leka"
+               },
+               "contactTitle":{
+                  "S":"Owner"
+               },
+               "postalCode":{
+                  "S":"0512"
+               },
+               "phone":{
+                  "S":"555-8787"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#20"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Singapore#NULL#Singapore#471 Serangoon Loop Suite #402"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Lyngbysild"
+               },
+               "contactName":{
+                  "S":"Niels Petersen"
+               },
+               "contactTitle":{
+                  "S":"Sales Manager"
+               },
+               "postalCode":{
+                  "S":"2800"
+               },
+               "phone":{
+                  "S":"43844108"
+               },
+               "fax":{
+                  "S":"43844115"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#21"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Denmark#NULL#Lyngby#Lyngbysild Fiskebakken 10"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Zaanse Snoepfabriek"
+               },
+               "contactName":{
+                  "S":"Dirk Luchte"
+               },
+               "contactTitle":{
+                  "S":"Accounting Manager"
+               },
+               "postalCode":{
+                  "S":"9999 ZZ"
+               },
+               "phone":{
+                  "S":"(12345) 1212"
+               },
+               "fax":{
+                  "S":"(12345) 1210"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#22"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Netherlands#NULL#Zaandam#Verkoop Rijnweg 22"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Karkki Oy"
+               },
+               "contactName":{
+                  "S":"Anne Heikkonen"
+               },
+               "contactTitle":{
+                  "S":"Product Manager"
+               },
+               "postalCode":{
+                  "S":"53120"
+               },
+               "phone":{
+                  "S":"(953) 10956"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#23"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Finland#NULL#Lappeenranta#Valtakatu 12"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"G'day Mate"
+               },
+               "contactName":{
+                  "S":"Wendy Mackenzie"
+               },
+               "contactTitle":{
+                  "S":"Sales Representative"
+               },
+               "postalCode":{
+                  "S":"2042"
+               },
+               "phone":{
+                  "S":"(02) 555-5914"
+               },
+               "fax":{
+                  "S":"(02) 555-4873"
+               },
+               "homePage":{
+                  "S":"G'day Mate (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/gdaymate.htm#"
+               },
+               "pk":{
+                  "S":"suppliers#24"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Australia#NSW#Sydney#170 Prince Edward Parade Hunter's Hill"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Ma Maison"
+               },
+               "contactName":{
+                  "S":"Jean-Guy Lauzon"
+               },
+               "contactTitle":{
+                  "S":"Marketing Manager"
+               },
+               "postalCode":{
+                  "S":"H1J 1C3"
+               },
+               "phone":{
+                  "S":"(514) 555-9022"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#25"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Canada#Québec#Montréal#2960 Rue St. Laurent"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Pasta Buttini s.r.l."
+               },
+               "contactName":{
+                  "S":"Giovanni Giudici"
+               },
+               "contactTitle":{
+                  "S":"Order Administrator"
+               },
+               "postalCode":{
+                  "S":"84100"
+               },
+               "phone":{
+                  "S":"(089) 6547665"
+               },
+               "fax":{
+                  "S":"(089) 6547667"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#26"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Italy#NULL#Salerno#Via dei Gelsomini 153"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Escargots Nouveaux"
+               },
+               "contactName":{
+                  "S":"Marie Delamare"
+               },
+               "contactTitle":{
+                  "S":"Sales Manager"
+               },
+               "postalCode":{
+                  "S":"71300"
+               },
+               "phone":{
+                  "S":"85.57.00.07"
+               },
+               "fax":{
+                  "S":"NULL"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#27"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"France#NULL#Montceau#22 rue H. Voiron"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Gai pâturage"
+               },
+               "contactName":{
+                  "S":"Eliane Noz"
+               },
+               "contactTitle":{
+                  "S":"Sales Representative"
+               },
+               "postalCode":{
+                  "S":"74000"
+               },
+               "phone":{
+                  "S":"38.76.98.06"
+               },
+               "fax":{
+                  "S":"38.76.98.58"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#28"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"France#NULL#Annecy#Bat. B 3 rue des Alpes"
+               }
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "companyName":{
+                  "S":"Forêts d'érables"
+               },
+               "contactName":{
+                  "S":"Chantal Goulet"
+               },
+               "contactTitle":{
+                  "S":"Accounting Manager"
+               },
+               "postalCode":{
+                  "S":"J2S 7S8"
+               },
+               "phone":{
+                  "S":"(514) 555-2955"
+               },
+               "fax":{
+                  "S":"(514) 555-2921"
+               },
+               "homePage":{
+                  "S":"NULL"
+               },
+               "pk":{
+                  "S":"suppliers#29"
+               },
+               "sk":{
+                  "S":"SUPPLIER"
+               },
+               "data":{
+                  "S":"Canada#Québec#Ste-Hyacinthe#148 rue Chasseur"
+               }
+            }
+         }
+      }
+   ]
+}

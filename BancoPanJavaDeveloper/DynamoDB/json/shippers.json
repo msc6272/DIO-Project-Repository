@@ -1,0 +1,31 @@
+{
+   "Northwind":[
+      {
+         "PutRequest":{
+            "Item":{
+               "pk":{"S":"shippers#1"},
+               "sk":{"S":"Speedy Express"},
+               "data":{"S":"(503) 555-9831"}
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "pk":{"S":"shippers#2"},
+               "sk":{"S":"United Package"},
+               "data":{"S":"(503) 555-3199"}
+            }
+         }
+      },
+      {
+         "PutRequest":{
+            "Item":{
+               "pk":{"S":"shippers#3"},
+               "sk":{"S":"Federal Shipping"},
+               "data":{"S":"(503) 555-9931"}
+            }
+         }
+      }
+   ]
+}
