@@ -134,13 +134,23 @@ The whole idea of this project is much more advanced than that of the challenge 
 ## Useful Links
 
 [Example of modeling relational data in DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-modeling-nosql-B.html)
+
 [Data Modeling Overview](https://www.dynamodbguide.com/data-modeling-overview/)
+
 [The What, Why, and When of Single-Table Design with DynamoDB](https://www.alexdebrie.com/posts/dynamodb-single-table/)
+
 [DynamoDB Deep Dive: Advanced Design Patterns](https://aws.amazon.com/dynamodb/resources/reinvent-2019-advanced-design-patterns/)
+
 [Tool to format/fix JSON](https://jsonformatter.curiousconcept.com/#)
+
 [Amazon DynamoDB - single table design](https://getindata.com/blog/amazon-aws-dynamodb-single-table-design/)
+
 [Modelling a product catalog in DynamoDB](https://www.tecracer.com/blog/2021/03/modelling-a-product-catalog-in-dynamodb.html)
+
 [Part 1: Refactoring to single-table design in Amazon DynamoDB](https://emshea.com/post/part-1-dynamodb-single-table-design)
+
 [Fundamentals of Amazon DynamoDB Single Table Design with Rick Houlihan](https://www.youtube.com/watch?v=KYy8X8t4MB8)
+
 [Using the Single Table design on AWS DynamoDB](https://awstip.com/using-the-single-table-design-on-aws-dynamodb-65a9480bd0c5)
+
 [WORKSHOP: ADVANCED DESIGN PATTERNS FOR AMAZON DYNAMODB](https://amazon-dynamodb-labs.com/design-patterns.html)
