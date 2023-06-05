@@ -39,6 +39,8 @@ In order to integrate Apache and FastCGI the file 'httpd.conf' must be configure
 
 [Install 7.4 via Docker](https://prototype.php.net/versions/7.4/install/docker)
 
+[How to stop NodeJS server process](https://sebhastian.com/how-to-stop-node-server/)
+
 ## Issues
 
 It seems to have a problem with the PHP-FPM configuration that prevents the identification of a leading slash in the name of the PHP file. For example, if we use /test.php it is not found by the module. But, if we use test.php this is found. The problem is that the Apache sends the file name with the leading slash, so it is never found by the PHP-FPM. It needs to be fixed, but it haven't found any solution until now.
