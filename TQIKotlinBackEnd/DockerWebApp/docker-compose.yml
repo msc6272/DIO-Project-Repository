@@ -1,0 +1,42 @@
+services:
+  webserver:
+    image: httpd:alpine3.18
+    networks:
+      - container-net
+    depends_on:
+      - php
+    container_name: webserver-01
+    ports:
+      - 8080:80
+    volumes:
+      - ./web-app:/usr/local/apache2/htdocs
+  sqlserver:
+    image: postgres:16beta1-alpine3.18
+    restart: always
+    networks:
+      - container-net
+    container_name: sqlserver-01
+    environment:
+      POSTGRES_PASSWORD: dio123
+  adminer:
+    image: adminer:4.7.0-standalone
+    restart: always
+    container_name: adminer-01
+    networks:
+      - container-net
+    depends_on:
+      - sqlserver
+    ports:
+      - 8088:8080
+  php:
+    image: php:8.2-rc-fpm-alpine
+    container_name: php-01
+    networks:
+      - container-net
+    ports:
+      - 9000:9000
+    volumes:
+      - ./web-app:/var/www/html
+networks:
+  container-net:
+    driver: bridge
