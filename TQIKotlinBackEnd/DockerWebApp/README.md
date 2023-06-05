@@ -42,3 +42,21 @@ In order to integrate Apache and FastCGI the file 'httpd.conf' must be configure
 ## Issues
 
 It seems to have a problem with the PHP-FPM configuration that prevents the identification of a leading slash in the name of the PHP file. For example, if we use /test.php it is not found by the module. But, if we use test.php this is found. The problem is that the Apache sends the file name with the leading slash, so it is never found by the PHP-FPM. It needs to be fixed, but it haven't found any solution until now.
+
+## Usefull commands
+
+```sh
+systemctl stop apache2
+apachectl configtest
+apachectl graceful
+kill -HUP 1
+sudo apt clean
+netstat -ltnp | grep -w ':80'
+sudo lsof -i -n -P
+netstat -ltnp | grep -w ':8828'
+netstat -ltnp | grep -w 'LIST'
+netstat -ltnp | grep 'LIST'
+sudo netstat -ltnp | grep 'LIST'
+lsof -i :8828
+ps aux | grep node
+```
