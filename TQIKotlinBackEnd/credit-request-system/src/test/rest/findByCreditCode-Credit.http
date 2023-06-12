@@ -1,0 +1,7 @@
+GET http://localhost:8080/api/credits/1111111?customerId=1
+User-Agent:  REST-Client
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+# Substituir o valor '1111111' na URI pelo valor do ID de crédito (UUID)

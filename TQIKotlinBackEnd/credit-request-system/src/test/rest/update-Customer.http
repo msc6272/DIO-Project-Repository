@@ -1,0 +1,14 @@
+PATCH  http://localhost:8080/api/customers?customerId=2
+User-Agent:  REST-Client
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: application/json
+
+{
+    "firstName": "Maria Joana",
+    "lastName": "Silva",
+    "income": 2500.0,
+    "zipCode": "123666584",
+    "street": "Rua Nova da Maria"
+}

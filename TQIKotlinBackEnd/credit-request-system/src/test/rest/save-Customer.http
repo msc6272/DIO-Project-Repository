@@ -1,0 +1,34 @@
+POST http://localhost:8080/api/customers
+User-Agent:  REST-Client
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+
+{
+    "firstName": "Cami",
+    "lastName": "Cavalcante",
+    "cpf": "43661109030",
+    "income": 1000.0,
+    "email": "camila@email.com",
+    "password": "123456",
+    "zipCode": "12345678",
+    "street": "Rua da Camila"
+}
+
+###
+POST http://localhost:8080/api/customers
+User-Agent:  REST-Client
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+
+{
+    "firstName": "Maria",
+    "lastName": "Silva",
+    "cpf": "99248331041",
+    "income": 2000.0,
+    "email": "maria@email.com",
+    "password": "123456",
+    "zipCode": "12345678",
+    "street": "Rua da Maria"
+}

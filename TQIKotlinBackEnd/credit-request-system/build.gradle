@@ -1,0 +1,52 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
+plugins {
+	id 'org.springframework.boot' version '3.1.0'
+	id 'io.spring.dependency-management' version '1.1.0'
+	id 'org.jetbrains.kotlin.jvm' version '1.8.21'
+	id 'org.jetbrains.kotlin.plugin.spring' version '1.8.21'
+	id 'org.jetbrains.kotlin.plugin.jpa' version '1.8.21'
+}
+
+group = 'dio.bootcamp.tqi.kotlin'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+	mavenCentral()
+}
+
+/*
+jar {
+	enabled = false
+}
+*/
+
+dependencies {
+	// api 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	// Testar a versão mais recente depois que tudo estiver funcionando: 2.1.0
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'com.fasterxml.jackson.module:jackson-module-kotlin'
+	implementation 'org.flywaydb:flyway-core'
+	implementation 'org.jetbrains.kotlin:kotlin-reflect'
+	runtimeOnly 'com.h2database:h2'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	// Testar com a versão mais recente depois que tudo estiver funcionando 1.13.5
+	testImplementation 'io.mockk:mockk:1.13.4'
+}
+
+// adicionei '.configureEach' na linha abaixo porque foi feito no video, mas não sei se é necessário.
+tasks.withType(KotlinCompile).configureEach {
+	kotlinOptions {
+		freeCompilerArgs = ['-Xjsr305=strict']
+		jvmTarget = '17'
+	}
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+

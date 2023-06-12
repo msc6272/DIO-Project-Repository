@@ -1,0 +1,13 @@
+POST http://localhost:8080/api/credits
+User-Agent:  REST-Client
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Connection: keep-alive
+
+{
+    "creditValue": 500.0,
+    "dayFirstOfInstallment": "2023-07-01",
+    "numberOfInstallments": 5,
+    "customerId": 1
+}

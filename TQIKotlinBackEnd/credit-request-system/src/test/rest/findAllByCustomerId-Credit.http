@@ -1,0 +1,5 @@
+GET http://localhost:8080/api/credits?customerId=1
+User-Agent:  REST-Client
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive

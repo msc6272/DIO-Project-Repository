@@ -1,0 +1,12 @@
+DELETE http://localhost:8080/api/customers/2
+User-Agent:  REST-Client
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+###
+DELETE http://localhost:8080/api/customers/1
+User-Agent:  REST-Client
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
