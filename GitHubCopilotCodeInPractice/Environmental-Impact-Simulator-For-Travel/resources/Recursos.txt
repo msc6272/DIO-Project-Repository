@@ -1,0 +1,21 @@
+https://github.com/digitalinnovationone/github-copilot-getting-started (Bom repositório)
+
+https://github.com/pablonunes/CalculadoraCO2 (repositório do projeto final do Pablo)
+
+https://arxiv.org/abs/1706.03762
+https://openai.com/index/language-unsupervised/
+https://github.com/features/copilot
+https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/
+
+https://docs.github.com/en/copilot/how-tos/configure-personal-settings/configure-in-ide?tool=visualstudio
+https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot
+https://docs.github.com/en/copilot/using-github-copilot/guides-on-using-github-copilot/refactoring-code-with-github-copilot#understanding-code
+
+https://michaelis.uol.com.br/busca?id=YmOL
+https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/11/11/explore-ai-models-key-differences-between-small-language-models-and-large-language-models/
+
+https://docs.github.com/en/copilot/responsible-use/chat-in-your-ide
+https://code.visualstudio.com/docs/copilot/chat/copilot-chat
+https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide
+
+

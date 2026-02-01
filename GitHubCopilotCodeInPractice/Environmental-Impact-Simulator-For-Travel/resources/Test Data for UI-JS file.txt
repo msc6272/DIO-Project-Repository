@@ -1,0 +1,14 @@
+//
+// Esses comandos devem ser usados no Console do Inspector para testar o funcionamento do arquivo js/ui.js
+//
+var testData = {
+  origin: 'São Paulo, SP',
+  destination: 'Rio de Janeiro, RJ',
+  distance: 430,
+  emission: 51.6,
+  mode: 'car',
+  savings: { savedkg:0, percentage: 0 }
+};
+var html = UI.renderResults(testData);
+document.getElementById('results-content').innerHTML = html;
+UI.showElement('results');
